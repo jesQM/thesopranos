@@ -1,0 +1,64 @@
+
+/* especificidad: 1 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgba(127, 255, 212, 0.75);
+    color: rgb(0, 0, 0);
+}
+
+/* especificidad: 1 */
+h1, h3, h5 {
+    font-stretch: expanded;
+}
+
+/* especificidad: 1 */
+h2, h4, h6 {
+    font-style: italic;
+}
+
+/* especificidad: 1 */
+h1 {
+    font-size: 5em;
+}
+
+/* especificidad: 1 */
+h2 {
+    font-size: 3em;
+}
+
+/* especificidad: 1 */
+h3 {
+    font-size: 2em;
+}
+
+/* especificidad: 1 */
+h4 {
+    font-size: 1.75em;
+}
+
+/* especificidad: 1 */
+h5 {
+    font-size: 1.5em;
+}
+
+/* especificidad: 1 */
+h6 {
+    font-size: 1.25em;
+}
+
+/* especificidad: 1 */
+p, ul, ol, dl, tr {
+    font-family: serif;
+    font-size: 1em;
+}
+
+/* especificidad: 1 */
+p {
+    background-color: rgba(172, 218, 255, 0.75);
+}
+
+/* especificidad: 2 */
+p::first-letter {
+    font-size: 1.5em;
+}
