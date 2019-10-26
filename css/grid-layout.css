@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+        "title title"
+        "header header"
+        "aside picture"
+        "aside content"
+        "footer footer"
+    ;
+}
+
+/* 001 */
+h1 {
+    grid-area: title;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+/* 002 */
+body > section {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+}

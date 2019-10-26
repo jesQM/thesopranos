@@ -1,21 +1,64 @@
+/* 001 */
+body {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+/* 001 */
 h1 {
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.4);
     padding: 20px;
     margin: 20px;
 }
 
-nav {
-    background-color: rgba(128, 128, 128,0.5);
+/* 001 */
+header {
+    background-color: rgba(128, 128, 128,0.4);
+    margin-bottom: 32px;
 }
 
-nav > h2 {
-    background-color: rgba(128, 128, 128,0.6);
+/* 001 */
+h2 {
+    background-color: rgba(128, 128, 128,0.5);
     padding: 10px;
     margin: 10px;
 }
 
-nav > a {
-    background-color: rgba(128, 128, 128,0.6);
+/* 002 */
+nav > a, aside {
+    background-color: rgba(128, 128, 128,0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 001 */
+section {
+    background-color: rgba(128, 128, 128,0.2);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 001 */
+footer {
+    background-color: rgba(128, 128, 128,0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 011 */
+.audio > audio {
+    background-color: rgba(128, 128, 128,0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 011 */
+a:active {
+    color: black;
+}
+
+/* 001 */
+video {
+    background-color: rgba(128, 128, 128,0.5);
     padding: 10px;
     margin: 10px;
 }

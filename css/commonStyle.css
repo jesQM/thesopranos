@@ -1,0 +1,52 @@
+/* 002 */
+header > nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+
+    width: 100%;
+    text-align: center;
+}
+
+/* 003 */
+header > nav > h2 {
+    grid-column: 1/6;
+}
+
+/* 002 */
+nav > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/* 001 */
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+/* 001 */
+footer {
+    display: block;
+    width: 100%;
+}
+
+/* 002 */
+footer > h2 {
+    text-align: center;
+}
+
+/* 001 */
+section {
+    text-align: center;
+    width: 100%;
+}
+
+/* 011 */
+.audio > audio {
+    width: 50%;
+}
