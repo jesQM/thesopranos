@@ -52,7 +52,8 @@ footer {
 }
 
 /* 011 */
-a:active {
+header > nav > a:active {
+    background-color: white;
     color: black;
 }
 
@@ -61,4 +62,12 @@ video {
     background-color: rgba(128, 128, 128,0.5);
     padding: 10px;
     margin: 10px;
+}
+
+/* 001 */
+li {
+    background-color: rgba(128, 128, 128,0.5);
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
 }

@@ -1,0 +1,13 @@
+
+aside > nav > ul {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "row"
+    ;
+}
+
+aside > nav > li {
+    grid-area: row;
+}
