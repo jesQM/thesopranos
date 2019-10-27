@@ -15,12 +15,19 @@ h1 {
     grid-area: title;
 }
 
+/* 001 */
 header {
     grid-area: header;
 }
 
+/* 001 */
 aside {
     grid-area: aside;
+}
+
+/* 001 */
+image {
+    grid-area: picture;
 }
 
 /* 002 */
@@ -28,6 +35,7 @@ body > section {
     grid-area: content;
 }
 
+/* 001 */
 footer {
     grid-area: footer;
 }
