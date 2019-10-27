@@ -47,3 +47,15 @@ section {
 .audio > audio {
     width: 50%;
 }
+
+/* 001 */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* 001 */
+table {
+    text-align: center;
+    width: 100%;
+}

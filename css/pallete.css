@@ -60,7 +60,6 @@ header > nav > a:active {
 /* 001 */
 video {
     background-color: rgba(128, 128, 128,0.5);
-    padding: 10px;
     margin: 10px;
 }
 
@@ -70,4 +69,16 @@ li {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
+}
+
+/* 001 */
+img {
+    background-color: rgba(128, 128, 128,0.2);
+    margin: 10px;
+    padding: 10px;
+}
+
+/* 001 */
+tr:nth-child(odd) {
+    background-color: rgba(128, 128, 128,0.3);
 }
